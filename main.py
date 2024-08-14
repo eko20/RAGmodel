@@ -34,7 +34,7 @@ index = faiss.IndexFlatL2(dimension)
 index.add(tfidf_vectors)
 
 
-client = OpenAI(api_key="sk-jNrETL67OEf0gkvjUgo8Epm7qQcSmzbcDihl-Ob9bOT3BlbkFJPRf98gkJHkG3jlDKKdayZK-2JsOegWVq3_6AYWiHMA")
+client = OpenAI(api_key="")
 
 def search_documents(query, top_k=3):
     # Sorguyu TF-IDF vektörüne dönüştür
